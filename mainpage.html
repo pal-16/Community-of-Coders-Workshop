@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Drum Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+</head>
+
+<body>
+
+    <audio id="myAudio1">            <!-- " myaudio1" doesnt work explain why. because id is very sensitive (space myaudio1) is considered as id whereas while calling we just used (myaudio1)-->
+
+
+        <source src="sounds/kick-bass.mp3 " />
+    </audio>
+    <audio id="myAudio2">
+        <source src="sounds/snare.mp3 " />
+    </audio>
+    <audio id="myAudio3">
+        <source src="sounds/tom-1.mp3 " />
+    </audio>
+
+    <h1 id="title ">Drum 🥁 Kit</h1>
+    <div class="set ">
+        <button class="test1 drum " onclick="playAudio1() " type="button ">C</button>
+        <button class="test2 drum " onclick="playAudio2() " type="button ">O</button>
+        <button class="test3 drum " onclick="playAudio3() " type="button ">C</button>
+        <button class="test4 drum " onclick="display() " type="button ">Vjti</button>
+
+    </div>
+    <script type="text/javascript " src="script.js "></script>
+    <footer> Made by coc vjti </footer>
+
+
+</body>
+
+</html>
