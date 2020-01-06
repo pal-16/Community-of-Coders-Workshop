@@ -19,6 +19,11 @@ function playAudio3() {
     z.play();
 }
 
+// A Sample function to show how it could have been done without using DOM as well 
+function playAudio(id) {
+    id.play();
+}
+
 
 function display() {
     alert('By the seniors,for the juniors!');
